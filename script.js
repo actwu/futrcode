@@ -98,7 +98,7 @@ function run() {
   codeset.classList.add("hide");
   sureset.classList.add("hide");
   
-  runset.innerHTML = saved
+  runset.innerHTML = txt.value 
   
   }
 
