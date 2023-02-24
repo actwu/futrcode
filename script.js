@@ -7,14 +7,6 @@ saved = localStorage.getItem("saved");
 htmlcode =   
   `
   
-  <!--
-Copy paste is fun
-Txt code : <p class=""> </p>  
-Div code : <div class=""> </div>                   
-Textarea code : <textarea class=""> </textarea>  
-Input code : <input class=""> </input>
-Button code <a class="btn prim"><p class"White">Btn<p></a>
--->
 <html lang="en">
   <head>
           <meta charset="UTF-8">
