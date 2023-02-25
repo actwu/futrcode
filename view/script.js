@@ -47,7 +47,9 @@ htmlcode =
   </html>`
 
 
+function datarevert() {
 txt.value = saved;
+}
 
 saver = setInterval(() => {
 save()
