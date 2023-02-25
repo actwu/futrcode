@@ -3,7 +3,7 @@ codeset = document.getElementById("code")
 runset = document.getElementById("run")
 preset = document.getElementById("preview")
 sureset = document.getElementById("sure")
-saved = localStorage.getItem("saved");
+
 
 htmlcode =   
   `
@@ -48,7 +48,7 @@ htmlcode =
 
 
 function datarevert() {
-txt.value = saved;
+txt.value = localStorage.getItem("saved");
 }
 
 saver = setInterval(() => {
@@ -99,6 +99,7 @@ function run() {
 
 function preview() {
    
-  preset.innerHTML = saved 
+  preset.innerHTML = localStorage.getItem("saved");
+ 
   
   }
