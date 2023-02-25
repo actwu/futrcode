@@ -53,7 +53,7 @@ txt.value = localStorage.getItem("saved");
 
 saver = setInterval(() => {
 save()
-}, 1000)
+}, 500)
 
 function save() {
 localStorage.setItem("saved", txt.value)
