@@ -1,6 +1,7 @@
 txt = document.querySelector("#snip")
 codeset = document.getElementById("code")
 runset = document.getElementById("run")
+preset = document.getElementById("preview")
 sureset = document.getElementById("sure")
 saved = localStorage.getItem("saved");
 
@@ -91,5 +92,11 @@ function run() {
   sureset.classList.add("hide");
   
   runset.innerHTML = txt.value 
+  
+  }
+
+function preview() {
+   
+  preset.innerHTML = saved 
   
   }
