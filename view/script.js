@@ -89,7 +89,9 @@ function sure() {
   }
 
 function run() {
-   viewport = `<embed src="/view/index.html"></embed>`
+   viewport = `
+<embed src="/view/index.html"
+class="fullscreen center"></embed>`
   runset.classList.remove("hide");
   codeset.classList.add("hide");
   sureset.classList.add("hide"); 
