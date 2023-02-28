@@ -95,7 +95,7 @@ function run() {
   sureset.classList.add("hide"); 
   
   runset.innerHTML = `
-<embed src="/futrcode/view/index.html"
+<embed src="https://actwu.github.io/futrcode/view/index.html"
 class="fullscreen center"></embed>`
   }
 
