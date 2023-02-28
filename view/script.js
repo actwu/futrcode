@@ -1,4 +1,4 @@
-8txt = document.querySelector("#snip")
+txt = document.querySelector("#snip")
 codeset = document.getElementById("code")
 runset = document.getElementById("run")
 preset = document.getElementById("preview")
