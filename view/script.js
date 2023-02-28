@@ -95,7 +95,7 @@ function run() {
   sureset.classList.add("hide"); 
   
   runset.innerHTML = `
-<embed src="/view/index.html"
+<embed src="view/index.html"
 class="fullscreen center"></embed>`
   }
 
