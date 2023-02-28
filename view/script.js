@@ -89,14 +89,14 @@ function sure() {
   }
 
 function run() {
-   viewport = `
-<embed src="/view/index.html"
-class="fullscreen center"></embed>`
+   
   runset.classList.remove("hide");
   codeset.classList.add("hide");
   sureset.classList.add("hide"); 
   
-    runset.innerHTML = viewport
+  runset.innerHTML = `
+<embed src="/view/index.html"
+class="fullscreen center"></embed>`
   }
 
 function preview() {
