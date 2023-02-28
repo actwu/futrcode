@@ -90,13 +90,14 @@ function sure() {
 
 function run() {
    
+  viewport = `<embed src="https://actwu.github.io/futrcode/view/index.html"
+class="fullscreen center"></embed>`
+
   runset.classList.remove("hide");
   codeset.classList.add("hide");
   sureset.classList.add("hide"); 
   
-  runset.innerHTML = `
-<embed src="https://actwu.github.io/futrcode/view/index.html"
-class="fullscreen center"></embed>`
+  runset.innerHTML = viewport 
   }
 
 function preview() {
