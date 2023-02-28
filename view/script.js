@@ -1,4 +1,4 @@
-txt = document.querySelector("#snip")
+8txt = document.querySelector("#snip")
 codeset = document.getElementById("code")
 runset = document.getElementById("run")
 preset = document.getElementById("preview")
@@ -95,7 +95,7 @@ function run() {
   sureset.classList.add("hide"); 
   
   runset.innerHTML = `
-<embed src="futrcode/view/index.html"
+<embed src="/futrcode/view/index.html"
 class="fullscreen center"></embed>`
   }
 
