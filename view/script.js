@@ -89,11 +89,12 @@ function sure() {
   }
 
 function run() {
-   
+   viewport = `<embed src="/view/index.html"></embed>`
   runset.classList.remove("hide");
   codeset.classList.add("hide");
   sureset.classList.add("hide"); 
   
+    runset.innerHTML = viewport
   }
 
 function preview() {
